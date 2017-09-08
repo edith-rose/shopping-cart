@@ -1,0 +1,57 @@
+[
+  {
+    "shopname": "1安妮可旗舰店",
+    "commodities": [
+      {
+        "name": "2017夏季新款绑带高跟鞋",
+        "price": 80,
+        "count": 1,
+        "img": "1.jpg",
+        "selected": false
+      },
+      {
+        "name": "2017宽松圆领披肩",
+        "price": 99,
+        "count": 1,
+        "img": "5.jpg",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "shopname": "2贝曼达旗舰店优惠",
+    "commodities": [
+      {
+        "name": "2017效率手册日程本",
+        "price": 22,
+        "count": 1,
+        "img": "2.jpg",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "shopname": "3安安金纯旗舰店",
+    "commodities": [
+      {
+        "name": "安安金纯橄榄油去屑柔顺洗发露",
+        "price": 10,
+        "count": 1,
+        "img": "3.jpg",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "shopname": "4色彩旋律旗舰店",
+    "commodities": [
+      {
+        "name": "2017夏季包头凉鞋女鞋",
+        "price": 158,
+        "count": 1,
+        "img": "4.jpg",
+        "selected": true
+      }
+    ]
+  }
+]
