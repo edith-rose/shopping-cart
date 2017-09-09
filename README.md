@@ -1,4 +1,4 @@
-# myshoppingcart
+# shoppingcart
 
 > A Vue.js project
 
@@ -18,4 +18,5 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 效果图
+![demo](http://img.blog.csdn.net/20170909102234138?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaWNmaHNmbWY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
