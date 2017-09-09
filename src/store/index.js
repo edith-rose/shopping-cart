@@ -30,9 +30,9 @@ let store = new Vuex.Store({
       let commodities = state.shops[shopIndex]['commodities']
       let commodityLen = commodities.length
       if (commodityLen === 1) {
-        state.shops.splice(state.shops[shopIndex], 1)
+        state.shops.splice(shopIndex, 1)
       } else {
-        commodities.splice(commodities[cIndex], 1)
+        commodities.splice(cIndex, 1)
       }
     },
     changeCommoditySelect (state, commodity) {
