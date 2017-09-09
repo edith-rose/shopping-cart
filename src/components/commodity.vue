@@ -6,7 +6,7 @@
     </div>
     <dl>
       <dt>
-        <img src="../assets/1.jpg" />
+        <img :src="'../assets/' + commodityInfo.imgUrl" />
       </dt>
       <dd class="sc-t">
         <a href="">{{commodityInfo.name}}</a>

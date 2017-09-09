@@ -33,6 +33,7 @@ apiRoutes.get('/commoditylist', function (req, res) {
 })
 
 app.use('/api', apiRoutes)
+app.use('/assets', express.static(path.join(__dirname, '../src/assets')))
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: webpackConfig.output.publicPath,

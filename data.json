@@ -6,14 +6,14 @@
         "name": "2017夏季新款绑带高跟鞋",
         "price": 80,
         "count": 1,
-        "img": "1.jpg",
+        "imgUrl": "1.jpg",
         "selected": false
       },
       {
         "name": "2017宽松圆领披肩",
         "price": 99,
         "count": 1,
-        "img": "5.jpg",
+        "imgUrl": "5.jpg",
         "selected": true
       }
     ]
@@ -25,7 +25,7 @@
         "name": "2017效率手册日程本",
         "price": 22,
         "count": 1,
-        "img": "2.jpg",
+        "imgUrl": "2.jpg",
         "selected": true
       }
     ]
@@ -37,7 +37,7 @@
         "name": "安安金纯橄榄油去屑柔顺洗发露",
         "price": 10,
         "count": 1,
-        "img": "3.jpg",
+        "imgUrl": "3.jpg",
         "selected": true
       }
     ]
@@ -49,7 +49,7 @@
         "name": "2017夏季包头凉鞋女鞋",
         "price": 158,
         "count": 1,
-        "img": "4.jpg",
+        "imgUrl": "4.jpg",
         "selected": true
       }
     ]
