@@ -35,7 +35,7 @@
         </ul>
       </div>
       <shop v-for="(shop, index) in shops" :shop="shop" :shop-index="index"></shop>
-      <div class="clearfix settlement" v-show="shops.length > 0" :zzn="shops.length > 0">
+      <div class="clearfix settlement" v-show="shops.length > 0">
         <div class="wrap">
           <div class="fl" @click="changeAllSelect">
             <input type="checkbox" class="select-all" :checked="isAllSelect" />全选
@@ -85,7 +85,7 @@
         this.$store.state.shops.forEach(shop => {
           shop.commodities.forEach(commodity => {
             if (commodity.selected === true) {
-              count += commodity.count
+              count += Number(commodity.count)
             }
           })
         })
