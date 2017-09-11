@@ -21,7 +21,8 @@
     <div class="fr sc-quantity quantity">
       <button class="cut" @click="reduceCount(commodityInfo)"></button>
       <input type="text" class="input-quantity" :value="commodityInfo.count"
-        @keyup="changeCount(commodityInfo)" ref="count"/>
+        @keyup="changeCount(commodityInfo)"
+            @blur="countBlur(commodityInfo)" ref="count"/>
       <button class="add" @click="addCount(commodityInfo)"></button>
     </div>
     <div class="fr sc-price price">
@@ -72,6 +73,16 @@
           commodity: item,
           count: countRef.value
         })
+      },
+      countBlur (item) {
+        let countRef = this.$refs.count
+        if (!countRef.value) {
+          countRef.value = 1
+          this.$store.commit('changeCommodityCount', {
+            commodity: item,
+            count: countRef.value
+          })
+        }
       },
       deleteItem (shopIndex, cIndex) {
         this.$store.commit('removeCommodity', {
